@@ -16,6 +16,6 @@ server.on("request", (req, res) => {
 })
 
 // 4. 监听端口，为了避免端口冲突，这里给一个本机端口3000
-server.listen(3000, () => {
+server.listen(8080, () => {
     console.log("服务器启动成功");
 })　
